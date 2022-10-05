@@ -1,0 +1,161 @@
+body {
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar {
+  /* background-color: darkseagreen; */
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  margin-right: 5px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: firebrick;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.navbar h3 {
+  color: darkred;
+}
+
+.navbar button {
+  border: 1px solid crimson;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 5x;
+}
+
+.image-slider img {
+  width: 100%;
+  height: 400px;
+}
+
+.bottom {
+  border-top: 1px solid black;
+  text-align: center;
+  padding: 30px;
+}
+
+.form {
+  background-color: azure;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 30px;
+}
+
+.form a {
+  text-decoration: none;
+  color: darkred;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.info {
+  margin-left: 280px;
+  margin-top: 30px;
+}
+
+.info img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin-left: 170px;
+  margin-top: 20px;
+}
+
+.ads {
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ads div {
+  background-color: blanchedalmond;
+  width: 80%;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid blue;
+  border-radius: 10px;
+}
+
+.ads button {
+  border: 1px solid crimson;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.post {
+  background-color: beige;
+  width: 60%;
+  margin-left: 200px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.post input {
+  width: 300px;
+}
+
+.post a {
+  text-decoration: none;
+  color: brown;
+  border: 1px solid crimson;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about div {
+  width: 80%;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.box div {
+  width: 80%;
+}
+
+#box {
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: aquamarine;
+  padding: 20px;
+}
+
+#goal {
+  border: 1px solid crimson;
+  border-radius: 10px;
+  background-color: beige;
+  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
